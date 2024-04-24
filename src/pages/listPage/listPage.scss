@@ -1,0 +1,25 @@
+.listPage{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+    .theTextPart_listPage{
+      flex: 3;
+   
+      .wrapper{
+        padding-right: 2rem;
+      }
+
+      overflow-y: scroll;
+      padding-bottom: 3rem;
+    }
+
+    .theMapPart_listPage{
+      flex: 2;
+      background-color: rgb(255, 241, 244);
+      height: 100%;
+      width: 100%;
+  
+      .map{height: 100%;}
+    }
+}
